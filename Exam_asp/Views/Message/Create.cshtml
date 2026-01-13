@@ -1,0 +1,23 @@
+@{
+    ViewData["Title"] = "Create Message";
+}
+
+<h2>Create secret message</h2>
+
+<form method="post">
+    <div>
+        <label>Message:</label><br />
+        <textarea name="message" rows="5" cols="50" required></textarea>
+    </div>
+
+    <div>
+        <label>Password:</label><br />
+        <input type="password" name="password" required />
+    </div>
+
+    <br />
+    <button type="submit">Create</button>
+</form>
+
+<br />
+<a href="/">Back to Home</a>
